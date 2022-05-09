@@ -1,12 +1,40 @@
-body {
-    background-color:rgb(144, 215, 224)
-}
+    body {
+        background-color:rgb(113, 200, 240);
+        text-align: center;    
+    }
 
-.title {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(37, 68, 109); 
-}
+    .name {
+    color: rgb(247, 159, 59); 
+    }
 
-.index {
-    color: rgb(37, 68, 109);
-}
+    .index {
+        color: rgb(26, 80, 230);
+    }
+
+    .profile-photo {
+            
+    }
+
+    .intro {
+color: white;
+    }
+
+    .main-skills {
+color: rgb(247, 159, 59);
+    }
+
+    .fut-skills {
+
+    }
+
+    .personal-links {
+color: rgb(26, 80, 230);
+    }
+
+    .external-links {
+color: rgb(255, 255, 255)
+    }
+
+    .return {
+
+    }
