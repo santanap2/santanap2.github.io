@@ -1,6 +1,7 @@
     body {
         background-color:rgb(113, 200, 240);   
         font-family: 'Nunito', sans-serif;
+        display: inline-block;
     }
 
     h1 {
@@ -12,12 +13,33 @@
         background-color: white;
         text-align: center;
         width: 800px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+        border: solid 5px rgb(247, 159, 59);
 
+    }
+
+    .index {
+        text-decoration: none;
+        color: white;
     }
 
     .index, .intro, .main-skills, .fut-skills, .personal-links, .external-links {
         color: rgb(0, 0, 0);
         font-size: 24px;
+        width: 400px;
+        text-align: justify;
+        text-decoration: none;
+        border: rgb(0, 0, 0) solid 5px;
+        background-color: rgb(247, 159, 59);
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
     }
 
     .return {
@@ -30,6 +52,14 @@
     .photo {
         border-radius: 100%;
         border: solid 10px rgb(247, 159, 59);
+        width: 400px
+    }
+
+    .profile-photo {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .button {
@@ -37,7 +67,7 @@
         margin-bottom: 15px;
         padding: 15px;
         border-radius: 10px;
-        background-color: rgb(247, 159, 59);
+        background-color: rgb(247, 159, 59)
         -webkit-transition: background-color 200ms ease;
         transition: background-color 200ms ease;
         font-family: 'Nunito', sans-serif;
@@ -47,6 +77,7 @@
         font-weight: 700;
         text-align: center;
         text-decoration: none;
+        
     }
 
     .external-links {
