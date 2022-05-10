@@ -8,8 +8,11 @@
     }
 
     .name {
-        color: rgb(247, 159, 59); 
-        background-color: rgb(255, 255, 255)
+        color: rgb(247, 159, 59);
+        background-color: white;
+        text-align: center;
+        width: 800px;
+
     }
 
     .index, .intro, .main-skills, .fut-skills, .personal-links, .external-links {
@@ -18,15 +21,10 @@
     }
 
     .return {
-        background-color: rgb(247, 159, 59);
-        -webkit-transition: background-color 200ms ease;
-        transition: background-color 200ms ease;
-        font-family: Montserrat, sans-serif;
-        color: #fff;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
+        background-color: rgb(255, 255, 255);
         text-align: center;
+        font-size: 24px;
+        padding: 15px;
     }
 
     .photo {
@@ -37,8 +35,8 @@
     .button {
         margin-top: 35px;
         margin-bottom: 15px;
-        padding: 15px 30px;
-        border-radius: 20px;
+        padding: 15px;
+        border-radius: 10px;
         background-color: rgb(247, 159, 59);
         -webkit-transition: background-color 200ms ease;
         transition: background-color 200ms ease;
@@ -48,5 +46,9 @@
         line-height: 20px;
         font-weight: 700;
         text-align: center;
+        text-decoration: none;
+    }
+
+    .external-links {
 
     }
