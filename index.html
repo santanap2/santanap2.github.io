@@ -20,34 +20,28 @@
     <header id="header" class="header">
         <h1><b>Portfólio</b><br>
         <i>Pedro Henrique Santana de Menezes</i>
-        </h1>
+        </h1>        
+        
+        <!-- Barra de navegação -->
+        <nav class="nav-bar">
+                <li class="item-list"><a class="font" href="#photo">Foto</a></li>
+                <li class="item-list"><a class="font" href="#about">Apresentação</a></li>
+                <li class="item-list"><a class="font" href="#main-skills">Principais competências</a></li>
+                <li class="item-list"><a class="font" href="#fut-skills">Competências futuras</a></li>
+                <li class="item-list"><a class="font" href="#personal-links">Links pessoais</a></li>
+                <li class="item-list"><a class="font" href="#external-links">Recomendações</a></li>
+            </ul>
+        </nav>
     </header>
     <br>
-
-
-    <!-- Barra de navegação -->
-    <nav class="nav-bar">
-        <ul ><strong><h2>Índice:</h2></strong>
-            <li class="item-list"><a href="#photo">Foto</a></li>
-            <li class="item-list"><a href="#presentation">Apresentação</a></li>
-            <li lass="item-list"><a href="#skills">Principais competências</a></li>
-            <li class="item-list"><a href="#future-skills">Competências a serem desenvolvidas</a></li>
-            <li class="item-list"><a href="#links">Links pessoais</a></li>
-            <li class="item-list"><a href="#recomendations">Recomendações de conteúdos</a></li>
-        </ul>
-    </nav>
-
-    <br><br>
-
 
     <!-- Página principal -->
     <main>
 
         <!-- Apresentação -->
-        <section>
+        <section class="about" id="about">
             <img class="photo" id="photo" src="Perfil.jpg" alt="Foto pessoal, com o setup ao fundo">
-            <article class="intro" id="presentation">
-                <h2>Sobre mim</h2>
+            <h2>Sobre mim</h2>
                 <p>Olá, tudo bem? Me chamo Pedro e tenho 22 anos. Sou nascido e criado em <b> Belo Horizonte-MG</b> e atualmente estudo desenvolvimento Web Full-Stack na Trybe. 
                 </p>
             </article>
@@ -56,8 +50,8 @@
 
 
         <!-- Habilidades Principais-->
-        <article class="main-skills">
-            <ul id="skills"><strong><h2>Principais competências</h2></strong>
+        <article class="main-skills" id="main-skills">
+            <ul><strong><h2>Principais competências</h2></strong>
                 <li>Git</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -71,8 +65,8 @@
 
 
         <!-- Habilidades Futuras -->
-        <div class="fut-skills">
-            <ul id="future-skills"><strong><h2>Competências a serem desenvolvidas</h2></strong>
+        <article class="fut-skills" id="fut-skills">
+            <ul><strong><h2>Competências futuras</h2></strong>
                 <li>Javascript</li>
                 <li>Python</li>
                 <li>SQL</li>
@@ -83,7 +77,7 @@
                 <li>Express.js</li>
                 <li>Algoritmos e estrutura de dados</li>
             </ul>
-        </div>
+        </article>
     </main>
     <br>
 
@@ -91,7 +85,7 @@
     <!-- Rodapé -->
     <footer>
         <!-- Links pessoais -->
-        <section class="personal-links" id="links">
+        <section class="personal-links" id="personal-links">
             <ul>
                 <h2><strong>Links pessoais:</strong></h2>
                 <a class="button" href="https://www.instagram.com/santanap2/" target="_blank">Instagram</a>
@@ -105,7 +99,7 @@
         <br>
     
         <!-- Links externos -->
-        <section class="external-links" id="recomendations">
+        <section class="external-links" id="external-links">
             <ul>
                 <h2><strong>Recomendações de conteúdos:</strong></h2>
                 <a class="button" href="https://www.youtube.com/c/FabioAkita1990" target="_blank">Fábio Akita (Programação)</a>
